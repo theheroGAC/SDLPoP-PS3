@@ -1,6 +1,6 @@
 # SDLPoP PS3
 
-Native **Sony PlayStation 3** port of **SDLPoP** (v1.24 RC), the open-source reimplementation of *Prince of Persia* based on the disassembly of the original DOS version.
+Native **Sony PlayStation 3** port by **theheroGAC** of **SDLPoP** (v1.24 RC), the open-source reimplementation of *Prince of Persia* based on the disassembly of the original DOS version.
 
 Built with the **ps3dev / PSL1GHT** toolchain (`ppu-gcc` Cell PPU), **SDL2**, **SDL2_image**, and the native Cell `libaudio` backend.
 
@@ -114,6 +114,7 @@ Generated outputs:
 
 ## Credits & Licenses
 
+- **theheroGAC** — PS3 port.
 - **David Nagy (NagyD)** and contributors for **SDLPoP** ([GNU GPL v3](LICENSE)).
 - **Jordan Mechner** for *Prince of Persia*.
 - **ps3dev / PSL1GHT** for the PS3 homebrew toolchain and libraries.
