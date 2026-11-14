@@ -1,0 +1,21 @@
+# Build & package artifacts
+build/
+pkgbuild/
+dist/
+github/
+*.elf
+*.self
+*.pkg
+*.log
+
+# Compiled objects & libraries (preserve required PSL1GHT render object)
+*.o
+!platform/ps3/SDL_PSL1GHTrender.o
+*.a
+*.d
+
+# Python / OS / editor metadata
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
